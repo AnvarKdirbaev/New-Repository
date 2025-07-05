@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Sayt tavsifi -->
+    <meta name="description"
+        content="Qaraqalpaq dástanları, ádebiyat, kitaptar, Qaraqalpaqsha klassik dástanlar to‘plami.">
+
+    <!-- Kalit so‘zlar -->
+    <meta name="keywords"
+        content="qaraqalpaq dástanları, qaraqalpaq ádebiyatı, dástanlar, kitaptar, folklor, qaraqalpaqsha kitaplar, da'stanlar,jiraw, qaraqalpaq,baqsi,a'debiyat">
+
+    <!-- Muallif -->
+    <meta name="author" content="Jasur Boranbaev">
+
+
+    <title>Qaraqalpaq dástanları</title>
+    <link rel="stylesheet" href="JASUR.CSS">
+    <link rel="shortcut icon" href="./logof.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="a0"></div>
+    <div class="hamburger-menu" onclick="toggleMobileMenu(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="./about/about_kk.html">Magliwmat</a>
+        <a href="#prem">Premium</a>
+        <a href="./login.html">Kiriw</a>
+        <a href="./Audio/index_kk.html">Audio</a>
+        <a href="#contact">Baylanis</a>
+    </div>
+
+    <div class="a1">
+        <div class="a11">
+            <img src="./logo.jpg" alt="" srcset="">
+            <button class="a112"><a href="#contact">Baylanis</a></button>
+            <button class="a111"><a href="./Audio/index_kk.html">Audio</a></button>
+        </div>
+        <div class="aa">
+            <a href="./about/about_kk.html">
+                <button class="a12 ">
+
+                    <span> Magliwmat</span>
+
+                </button>
+            </a>
+
+            <a href="#prem">
+                <button class="a12 magliwmat">
+
+                    <span> Premium </span>
+
+                </button>
+            </a>
+
+
+            <a href="./login.html">
+                <button class="a13">
+
+                    <span> Kiriw </span>
+
+                </button>
+            </a>
+            <div class="language-selector">
+                <button class="lang-btn" onclick="toggleDropdown()">
+                    <img src="./istockphoto-881571108-612x612.jpg" alt="Uzbek Flag"> Qaraqalaqsha <span
+                        class="arrow">▼</span>
+                </button>
+                <div class="dropdown" id="langDropdown">
+                    <a href="./index_uz.html"> <img src="./photo_2025-05-04_14-19-42.jpg" alt="" srcset="">O'zbekcha</a>
+                    <a href="index_ru.html"><img src="./photo_2025-05-04_14-08-24.jpg" alt="" srcset="">Русский</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function toggleDropdown() {
+            const dropdown = document.getElementById('langDropdown');
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function toggleMobileMenu(icon) {
+            icon.classList.toggle('active');
+            const menu = document.getElementById('mobileMenu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.a1');
+            header.classList.toggle('scrolled', window.scrollY > 20);
+        });
+    </script>
+
+    <div class="a2">
+        <h1>Qaraqalpaq dástanları</h1>
+        <h5 id="typewriter"></h5>
+    </div>
+
+    <script>
+        const text = `Qaraqalpaq dástanları saytına xosh keldińiz!\nBizde tek dástanlar emes qaraqalpaq ádebiyatına tiyisli bir qansha kitaplardı da taba alasız!`;
+        let i = 0;
+        const speed = 50; // harf chiqish tezligi (ms)
+
+        function typeWriter() {
+            if (i < text.length) {
+                document.getElementById("typewriter").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        window.onload = typeWriter;
+    </script>
+
+    <div class="a21">
+        <button class="dastanlar" id="dastanlar"
+            onclick="location.href='./dastanlar/dastan_kk.html'"><span>Dastanlar</span></button>
+        <button class="basqa_k" id="kitaplar" onclick="location.href='./kitaplar/kitaplar_kk.html'"><span>Qosimsha
+                kitaplar</span></button>
+        <button class="info" id="adebiyat" onclick="location.href='./qq_adebiyati/adebiyatlar_kk.html'"><span>Qaraqalpaq
+                adebiyati</span></button>
+    </div>
+    <Div class="a3">
+        <div class="a31">
+            <img id="img1"
+                src="https://avatars.mds.yandex.net/i?id=6e11d2d359ca1ffbb9f7a97ccceebaf6-4613040-images-thumbs&n=13"
+                alt="" class="a311 bsd">
+            <img id="img2"
+                src="https://avatars.mds.yandex.net/i?id=47c82ae1c390a3f521803d24501996aac481b2ef-8145720-images-thumbs&n=13"
+                alt="" class="a312 bsd">
+            <img id="img3"
+                src="https://avatars.mds.yandex.net/i?id=7a8b9a46d77ca7d655871b8f4ac258d94be34350-9181079-images-thumbs&n=13"
+                alt="" class="a313 bsd">
+        </div>
+        <div class="a32">
+
+            <div class="a322">
+                <div class="a3221 bass" onclick="f1('dastan_kk')">
+                    <h1>Qoblan dástanı</h1>
+                    <h5>Qoblan ...</h5>
+                </div>
+                <div class="a3221" onclick="f1('dastan_kk')">
+                    <h1>Alpamıs dástanı</h1>
+                    <h5>Alpamıs, Barshinay, Gulparshin ...</h5>
+                </div>
+                <div class="a3221" onclick="f1('dastan_kk')">
+                    <h1>Qiriq qiz dástanı</h1>
+                    <h5>Gulayim , Ernazar ...</h5>
+                </div>
+            </div>
+
+        </div>
+    </Div>
+    <Div class="a4">
+        <div class="pricing-plans" id="prem">
+            <!-- Basic Plan -->
+            <div class="plan basic">
+                <h2>Ápiwayi bólim</h2>
+                <p class="price">0 swm/ay</p>
+                <p>Jıllıq esapta 0 swm.</p>
+                <ul>
+                    <li>✔ Kúnlik limit 5 kitap</li>
+                    <li>✔ 2 seanstan paydalanıw</li>
+                    <li>✔ Operator juwabı 1 kún</li>
+                </ul>
+                <button>Premiumǵa jazılıw</button>
+            </div>
+
+            <!-- Business Plan -->
+            <div class="plan business">
+                <h2>Business bólim</h2>
+                <p class="price">20 000 swm/ay</p>
+                <p>Jıllıq esapta 200 000 swm</p>
+                <ul>
+                    <li>✔ Kúnlik limit 10 kitap</li>
+                    <li>✔ 5 seanstan paydalaniw</li>
+                    <li>✔ Operator juwabı 12 saat</li>
+
+                </ul>
+                <button><span>Premiumǵa jazılıw</span></button>
+            </div>
+            <!-- Enterprise Plan -->
+            <div class="plan enterprise">
+                <h2>Gold bolim</h2>
+                <p class="price">50 000 swm/ay</p>
+                <p>Jıllıq esapta 550 000 swm</p>
+                <ul>
+                    <li>✔ Kunlik limit 20 kitap</li>
+                    <li>✔ 10 seanstan paydalaniw</li>
+                    <li>✔ Operator juwabı 1 saat</li>
+                </ul>
+                <button>Premiumǵa jazılıw</button>
+            </div>
+        </div>
+    </Div>
+    <Div class="a5">
+        <div class="contact-section" id="contact">
+            <div class="contact-item">
+                <div class="icon">📧</div>
+                <h3>Email</h3>
+                <p>Pikir hám usınıslarıńız bolsa.</p>
+                <a href="mailto:oddiy0406@gmail.com">oddiy0413@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <div class="icon">📞</div>
+                <h3>Phone</h3>
+                <p>Sheriklik usınısları ushın.</p>
+                <a href="tel:+998882411314">+998-88-241-13-14</a>
+            </div>
+            <div class="contact-item">
+                <img src="./photo_2025-05-04_12-57-24.jpg" style="width: 50px; height: 50px; mix-blend-mode: multiply;"
+                    class="icon" alt="" srcset="">
+                <h3>Telegram</h3>
+                <p>Baylanis ushin!</p>
+                <a href="https://t.me/jasik_701">@jasik_701</a>
+            </div>
+            <div class="contact-item">
+                <div class="icon">📍</div>
+                <h3>Office</h3>
+                <p>Investiciya da úlken kólemdegi usınıslar ushın!</p>
+                <p>Nókis qalası Abdiraman Ótepov kóshesi 1/1</p>
+            </div>
+
+        </div>
+    </Div>
+    <script src="./Jasur.js"></script>
+    <script>
+        function toggleDropdown() {
+            const dropdown = document.getElementById("langDropdown");
+            dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+        }
+
+        // Dropdown tashqarisiga bosilganda yopish
+        window.onclick = function (event) {
+            if (!event.target.matches('.lang-btn') && !event.target.closest('.lang-btn')) {
+                const dropdown = document.getElementById("langDropdown");
+                if (dropdown) {
+                    dropdown.style.display = "none";
+                }
+            }
+        }
+    </script>
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('.a1');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobil ko'rinishda elementlarni yashirish uchun
+        function checkMobileView() {
+            const mobileItems = document.querySelectorAll('.a112, .magliwmat');
+            const mobileItem = document.querySelector('.a1');  // querySelector (bitta element) ishlatildi
+            if (window.innerWidth <= 768) {
+                mobileItems.forEach(item => {
+                    item.style.display = 'none';
+                });
+                if (mobileItem) {
+                    mobileItem.style.justifyContent = 'center';
+                    mobileItem.style.gap = '20px';
+                }
+            } else {
+                mobileItems.forEach(item => {
+                    item.style.display = '';
+                });
+                if (mobileItem) {
+                }
+            }
+        }
+
+        // Sahifa yuklanganda va o'lcham o'zgarganda tekshirish
+        window.addEventListener('load', checkMobileView);
+        window.addEventListener('resize', checkMobileView);
+    </script>
+
+
+</body>
+
+</html>

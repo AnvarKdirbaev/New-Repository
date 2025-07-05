@@ -12,8 +12,7 @@
 <body>
   <header class="header">
     <h1>Dástanlar</h1>
-    <p>Qaraqalpaq qalq.</p>
-    <a href="../index_kk.html" class="aaa"></a>
+    
   </header>
 
   <main class="books-section" id="books-container">
