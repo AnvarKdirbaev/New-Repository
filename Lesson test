@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dástanlar</title>
+  <link rel="stylesheet" href="dastan.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+ 
+</head>
+<body>
+  <header class="header">
+    <h1>Dástanlar</h1>
+    <p>Qaraqalpaq qalq.</p>
+    <a href="../index_kk.html" class="aaa"></a>
+  </header>
+
+  <main class="books-section" id="books-container">
+    <div class="book" id="alpamis">
+      <div class="book-content">
+        <img src="https://avatars.mds.yandex.net/i?id=47c82ae1c390a3f521803d24501996aa5cbdd1f9-4322231-images-thumbs&n=13" alt="Alpamıs dástanı">
+        <div class="book-info">
+          <h2>Alpamıs dástanı</h2>
+          <p>II variant (O'giz jiraw varianti) (Qalli Aimbetov) (1934)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="Alpamis.pdf">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>Alpamıs dástanı — "Alpamıs" tıń qaharmanlıq nusqasınıń variantları XX ásirdiń basında jazıp alınıp, baspa sózde kóriniwi sol dáwirden baslanadı. Eń birinshi basılıp shıqqan Jiyemurat jıraw "Alpamıs"ı. Dástanınıń ekinshi variantı 1934-ılı Ógiz jırawdan Q.Ayımbetov tárepinen jazıp alındı. Úshinshi variantı 1955-jılı Qıyas jırawdan jazıp alındı. Tórtinshi variantı 1957-jılı Qurbanbay jırawdan, besinshi variantı 1958-jılı Esemurat jırawdan R. Xojambergenov tárepinen, altınshı variantı 1959-jılı Arzımbet jırawdan Q.Maqsetov tárepinen, jetinshi variantı 1959-jılı Karam jırawdan A. Jamalov, N. Kamalov, Q. Mambetnazarovlar tárepinen, segizinshi varinatı 1960-jılı Táńirbergen jırawdan A.Jamalov tárepinen jazıp alındı.</p>
+      </div>
+    </div>
+
+    <div class="book" id="qiriq-qiz">
+      <div class="book-content">
+        <img src="https://avatars.mds.yandex.net/i?id=fb43e44861375863214908da0161913352e75952-4432403-images-thumbs&n=13" alt="Qırıq qız dástanı">
+        <div class="book-info">
+          <h2>Qırıq Qız dástanı</h2>
+          <p>(Qiyas jiraw varianti) (1993) qaraqalpaq xaliq dastani</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="Qiriq_qiz.pdf">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>"QIRQ QIZ" — qaraqalpaq xalıq qaharmanlıq eposı. Qaraqalpaq xalqınıń mádeniy esteligi. Qurbanbay baqsı Tájibay ulınan jazıp alınǵan (1939— 40). Shıǵarmada súwetleniwinshe, Allayar baydıń jalǵız qızı Gúlayım qırq dostı hám óz ashıǵı Arıslan menen Iran shahı Nadirshah hám qalmaq xanı Surtaysha hújiminen jurttı qorǵawǵa atlanadı. Shıǵarma watanpárwarlıq hám gumanizm ideyaları menen suwǵarılǵan. Ondaǵı Gúlayım, Altınay, Otbasqan, Arıslan, Sarbinaz siyaqlı obrazlarda batırlıq, watanǵa sadıqlıq, insanıylıq, dushpanǵa shápáátsizlik ideyaları birlesken. Shıǵarmanıń syujet sızıǵı Tumaris, saklar malikası Zarina haqqındaǵı ráwiyatlarǵa uqsap ketedi. Shıǵarmanıń qoljazba nusqaları Ózbekstan FA Qaraqalpaqstan filialıkitapxanasında saqlanadı. «Qırq qız» ózbek, túrkmen, qazaq, qırǵız hám rus tillerinde basıp shıǵarılǵan.</p>
+      </div>
+    </div>
+
+    <div class="book" id="edige">
+      <div class="book-content">
+        <img src="https://avatars.mds.yandex.net/i?id=cf82104e3e5b252057e712f9c62c5f064a467bd5-4120277-images-thumbs&n=13" alt="Edige dástanı">
+        <div class="book-info">
+          <h2>Edige dástanı</h2>
+          <p>(Jumabay jiraw Bazarov varianti)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="Edige.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>Edige dástanı − qarqalpaq dástanları arasında sóz kórkemligi joqarı, syujetlik hám kompoziciyalıq jaǵınan turmısqa ádewir jaqın, xalıqtıń súyip tıńlaǵan dástanlarınıń biri. Dástan qaraqalpaqlardan tısqarı qazaq, noǵay, bashqurt, ózbek, tatar hám basqa da túrkiy xalıqlar arasında keń tarqalǵan. Biraq, onıń tolıq nusqaları qaraqalpaq hám noǵay xalqıları arasında ushıraydı. Edige negizinde tarıyxıy adam. Ol Amir Temurdıń belgili áskerbasshılarınıń biri. Edige Túrkiy xalıqlardıń Mańǵıt taypasınan shıqqan bolıp, dáslep Aq Orda xanı Orıs xanǵa, sońınan Amir Temurge xızmet etken. Ol dáslep Túrkstanda Aq Orda áskeriniń shep qanatın basqarıwshı, sońınan Xorezm húkimdarı sıpatında da kórinedi. Bul úlkelerde 25 jılday ómir keshirip, sońınan Mamaydıń óliminen keyin Altın Ordada ámirlik etken. Sarayshıq, Qırım hám Kavkaz dalaların aralaǵan. Sonıń ushın da, onıń ómiri ádewir qospalı sıpatqa iye. Usınday sebeplerge baylanıslı ol haqqında hár qıylı dástan variantları toqılǵan.</p>
+      </div>
+    </div>
+
+    <div class="book" id="qoblan">
+      <div class="book-content">
+        <img src="https://avatars.mds.yandex.net/i?id=8e0b1d7eb246ffa2dfcba9cf31ed454f_l-5236639-images-thumbs&n=13" alt="qoblan dástanı">
+        <div class="book-info">
+          <h2>Qoblan dástanı</h2>
+          <p>(Ka'ram jiraw Nag'imov variant) (1959)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="Qoblan.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>Qoblan dástanı qaraqalpaqlar arasında keńnen taralǵan. Bul dástannıń I.A.Belyaev variantın esaplanǵanda sońǵı jılları jazıp alınǵan 7 variantı bar. "Qoblan" dástanınıń qaraqalpaqsha variantıń birinshi ret xatqa túsirgen qaraqalpaq awızeki ádebiyatın jıynawdıń dáslepki baslawshılarınan biri rus ilimpazı I.A Belyaev boldı. I A Belyaevtiń Qıpshaqta turatuǵın Imamqul degen jırawdan jazıp alǵan "Qoblan" dástannıń qol jazbası menen onda dástan Qoblannıń Kóbiklige atlanıwınan baslanıp, Alshaǵırdı joq etip, muratı-maqsetke jetiwi menen tamamlanadı. Bul nusqa birinshi ret jazıp alınıwı hám baspadan kóriniwi jaǵınan úlken áhmiyetke iye. Sonıń menen birge "Qoblan" bul nusqası til ózgesheligin izertlew máselesinde de ayrıqsha kewil awdararlıq. "Qoblan" dástanınıń ekinshi nusqası 1940-jılı ataqlı qaraqalpaq jırawı Nurabullaev Esemurattan N.Japaqov tárepinen jazıp alındı.</p>
+      </div>
+    </div>
+
+
+    <div class="book" id="sharyar">
+      <div class="book-content">
+        <img src="./uploads/images/Sharyar.jpg" alt="Sharyar dástanı">
+        <div class="book-info">
+          <h2>Sharyar dástanı</h2>
+          <p>(Jumabay jiraw Bazarov varianti)(1980)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="sharyar.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>"Sharyar dástanı" kóp ásirlik tariyx hám xalıq turmısınan gúrriń etedi. Ondaǵı obrazlar,qaharmanlıq hám elge sadıqlıq sıyaqlı temalar jaslardıń patriotlıq ruhın asırıwda zárúrli roloynaydı. Jaslar dástandaǵı unamlı qaharmanlar arqalı hadallıq, mártlik, hám tolerantlıq sıyaqlısapalardı ózlestiredi.Dástanıń qaharmanları hám olar arasındaǵı waqıyalar jaslar arasında hadallıq,miynetkeshlik, mártlik hám birshilik sıyaqlı sapalardı úgitleydi. " Sharyar dástanı" arqalı jaslar ózmilliy túbirlerine tereńrek baylanısadı, hám xalqınıń ayriqsha tariyxıy jolin ańǵarıwǵa ıntıladı.Bul dástanıń bas qaharmanları óz xalqı ushın pidayılıq, mártlik hám doslıqtıń tımsalı bolıptabıladı. Jaslar bul sıyaqlı qaharmanlardan órnek alıp, olardaǵı pazıyletlerdi ózlerine sińdiriwarqalı turmısda óz jolların belgilesedi.</p>
+      </div>
+    </div>
+
+
+    <div class="book" id="maspatsha">
+      <div class="book-content">
+        <img src="./uploads/images/maspatsha.jpg" alt="Maspatsha dástanı">
+        <div class="book-info">
+          <h2>Máspatsha dástanı</h2>
+          <p>(Qayipnazar jiraw Kalimbetov varianti)(1960)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="maspatsha.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>Bul qaraqalpaq dástanlarınıń ishinde basqa dástanlar menen salıstırǵanda oǵada az izertlengenleriniń birewi bolıp esaplanadı. Basqa dástanlar sıyaqlı avtorı belgisiz bolıw menen bir qatar, qashan dóretilgeni tuwralı da anıqlanǵan pikir joq. Dástandaǵı qaharman-lardıń tariyxta bolǵanlıǵın dálilleytuǵın ya awızeki, ya jazba túrinde heshqanday maǵlıwmat joq. Geypara ádebiyatshıları-mız dástannıń mazmunına, qurılısına, tiline tiykarlana otırıp, «Alpamıs» dástanınıń izi menen jazılǵan, sońǵı waqıtlarda, atap aytqanda, qaraqalpaq xalqınıń Túrkstannan kóship kelip, Xorezmde jasaǵan waqtında dóregen dástan degen pikirdi keltirse, al ayırımları ol Buxara aymaǵında dóretilgen bolıwı kerek degen shamalawdı bildiredi.</p>
+      </div>
+    </div>
+
+
+    <div class="book" id="bozuglan">
+      <div class="book-content">
+        <img src="./uploads/images/Bozuglan.jpg" alt="Bozuglan dástanı">
+        <div class="book-info">
+          <h2>Bozuǵlan dástanı</h2>
+          <p>(Qayipnazar jiraw Kalimbetov varianti)(1960)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="buzuglan.pdf">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>Qaraqalpaq xalqınıń toy-jıyınları menen keń xalıq arasında aytılıp hám tıńlanıp kiyatırǵan «Bozuǵlan» dástanı ótken ásirdiń otızınshı jıllarınıń aqırında jazıp alındı.  Dástannıń birinshi variantı 1938-jılı shayır X.Turımbetov penen ilimiy xızmetker K.Ábibullaevlar tárepinen Shımbaylı Ábdireyim jıraw Álpeney ulınan, ekinshi variantı 1959-jılı folklorist-alım Q.Mámbetnazarov tárepinen Qıyas jıraw Qayratdinovtan, úshinshi variantı 1960-jılı professor Q.Maqsetov, folklorist Q.Mámbetnazarovlar tárepinen Shımbaylı Qayıpnazar jıraw Qálimbetovtan jazıp alınadı.«Bozuǵlan» dástanınıń mazmunı jaǵınan tolıq ham kórkemligi joqarı dep esaplanǵan Qıyas jıraw variantı 1961-jılı óz aldına hám 1989-jılı Qaraqalpaq folklorı kóp tomlıǵınıń XIX tomında basıldı. Al, Qayıpnazar jıraw variantı 2010-jılı «Ilim» baspası tárepinen Qaraqalpaq folklorı 100 tomlıǵınıń XVII tomında basılıp shıqtı. Bul úsh jırawdan jazıp alınǵan variantlar kompoziciyalıq qurılısı, syujeti, mazmunı hám ideyası jaǵınan derlik birdey.</p>
+      </div>
+    </div>
+
+
+    <div class="book" id="garipashiq">
+      <div class="book-content">
+        <img src="./uploads/images/garip ashiq.jpg" alt="Garip ashiq dástanı">
+        <div class="book-info">
+          <h2>Ǵárip ashıq dástanı</h2>
+          <p>(A'met baqsı Tariyxrov varianti)(1959)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="garip_ashiq.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>Ǵárip ashıq dástanı qaraqalpaq xalqı arasına keńnen taralǵan dástanlardıń biri. Bul dástan negizinen Orta Aziyaǵa Ázerbayjan arqalı taralǵan. Sebebi,Ázerbayjanda baqsı- jırawlardıń ózin «ashıq» dep ataydı. Ayırım baqsılardıń dástanlardı sheberlik penen atqarıwshılıǵı nátiyjesinde syujetlik waqıyalarına xalıqtıń milliy ózgeshelikleriniń sińdiriliwine, jáne til ózgesheliklerin qáliplestiriw tiykarında dástannıń qaraqalpaqsha variantı payda boldı.«Ǵárip ashıq» dástanı liro-epikalıq (ashıqlıq) dástanları arasında xalıqqa kóbirek sińip ketken, ashıqlardıń psixologiyalıq ruwxın tereń súwretlep bere algan shıǵarmalardıń biri. Dástan qaraqalpaq baqsılarınıń atqarıwshılıq repertuarında keńnen orın alǵan bolıp, dástandı bilmeytuǵın baqsınıń ózi bolmaǵan.</p>
+      </div>
+    </div>
+
+
+    <div class="book" id="amanbaybatir">
+      <div class="book-content">
+        <img src="./uploads/images/Amanbay.jpg" alt="Amanbay Batır dástanı">
+        <div class="book-info">
+          <h2>Amanbay Batır dástanı</h2>
+          <p>(Qıyas jiraw Qayratdinov varianti)(1959)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="amanbay.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p></p>
+      </div>
+    </div>
+
+
+    <div class="book" id="yusupaxmet">
+      <div class="book-content">
+        <img src="./uploads/images/Yusup axmet.jpg" alt="yusupaxmet">
+        <div class="book-info">
+          <h2>Yusup Axmet dástanı</h2>
+          <p>(Abdireyim Toreniyazov)(1956-1957)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="yusup_axmed.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="book" id="sayatxanxamre">
+      <div class="book-content">
+        <img src="./uploads/images/Sayatxan Xamre.jpg" alt="sayatxanxamre">
+        <div class="book-info">
+          <h2>Sayatxan Xamre dástanı</h2>
+          <p>(Juman baqsı Toreev)(1962)</p>
+        </div>
+      </div>
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="Sayatxan.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Kitaplar Saytı. Barlıq huqıqlar qorǵalǵan.</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Tuǥmalar ushın qáliplesti
+      document.querySelectorAll('.details-btn').forEach(button => {
+        const detailsDiv = button.closest('.book').querySelector('.book-details');
+        
+        button.addEventListener('click', () => {
+          const isShown = detailsDiv.classList.toggle('show');
+          button.innerHTML = isShown 
+            ? '<i class="fas fa-chevron-up"></i> Jabıw' 
+            : '<i class="fas fa-chevron-down"></i> Tolıǵıraq';
+        });
+      });
+
+      // Júklep alıw tuǥmaları ushın qáliplesti
+      document.querySelectorAll('.download-btn').forEach(button => {
+        button.addEventListener('click', () => {
+          const fileName = button.getAttribute('data-file');
+          const fileUrl = `download.php?file=${encodeURIComponent(fileName)}`;
+          
+          const link = document.createElement('a');
+          link.href = fileUrl;
+          link.download = fileName;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
