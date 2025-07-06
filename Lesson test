@@ -16,15 +16,7 @@
   </header>
 
   <main class="books-section" id="books-container">
-    <div class="book" id="alpamis">
-      <div class="book-content">
-        <img src="https://avatars.mds.yandex.net/i?id=47c82ae1c390a3f521803d24501996aa5cbdd1f9-4322231-images-thumbs&n=13" alt="Alpamıs dástanı">
-        <div class="book-info">
-          <h2>Alpamıs dástanı</h2>
-          <p>II variant (O'giz jiraw varianti) (Qalli Aimbetov) (1934)</p>
-        </div>
-      </div>
-      <div class="book-actions">
+         <div class="book-actions">
         <button class="details-btn" aria-expanded="false"> 
           <i class="fas fa-chevron-down"></i> Tolıǵıraq
         </button>
@@ -211,9 +203,9 @@
     </div>
 
 
-    <div class="book" id="yusupaxmet">
+    <div class="book" id="1111">
       <div class="book-content">
-        <img src="./uploads/images/Yusup axmet.jpg" alt="yusupaxmet">
+        <img src="./uploads/images/Yusup axmet.jpg" alt="1111">
         <div class="book-info">
           <h2>Yusup Axmet dástanı</h2>
           <p>(Abdireyim Toreniyazov)(1956-1957)</p>
