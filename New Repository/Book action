@@ -1,0 +1,13 @@
+
+      <div class="book-actions">
+        <button class="details-btn" aria-expanded="false"> 
+          <i class="fas fa-chevron-down"></i> Tolıǵıraq
+        </button>
+        <button class="download-btn" data-file="sharyar.docx">
+          <i class="fas fa-download"></i> Júklep alıw
+        </button>
+      </div>
+      <div class="book-details">
+        <p>"Sharyar dástanı" kóp ásirlik tariyx hám xalıq turmısınan gúrriń etedi. Ondaǵı obrazlar,qaharmanlıq hám elge sadıqlıq sıyaqlı temalar jaslardıń patriotlıq ruhın asırıwda zárúrli roloynaydı. Jaslar dástandaǵı unamlı qaharmanlar arqalı hadallıq, mártlik, hám tolerantlıq sıyaqlısapalardı ózlestiredi.Dástanıń qaharmanları hám olar arasındaǵı waqıyalar jaslar arasında hadallıq,miynetkeshlik, mártlik hám birshilik sıyaqlı sapalardı úgitleydi. " Sharyar dástanı" arqalı jaslar ózmilliy túbirlerine tereńrek baylanısadı, hám xalqınıń ayriqsha tariyxıy jolin ańǵarıwǵa ıntıladı.Bul dástanıń bas qaharmanları óz xalqı ushın pidayılıq, mártlik hám doslıqtıń tımsalı bolıptabıladı. Jaslar bul sıyaqlı qaharmanlardan órnek alıp, olardaǵı pazıyletlerdi ózlerine sińdiriwarqalı turmısda óz jolların belgilesedi.</p>
+      </div>
+    </div>
